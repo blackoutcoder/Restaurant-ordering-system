@@ -24,12 +24,28 @@ namespace Services
         {
             Foods = new List<Food>();
             
+            Foods.Add(new Food("Fish and Chips", 2.99m));
+            Foods.Add(new Food("Toasts and Egg", 1.59m));
+            Foods.Add(new Food("Bacon and potatoes", 3.20m));
+            Foods.Add(new Food("Baked Parmezan", 2.59m));
+            Foods.Add(new Food("Rizotto", 2.89m));
+            Foods.Add(new Food("Chicken nugets", 4.99m));
+            Foods.Add(new Food("Vegetable Soup", 0.99m));
+            Foods.Add(new Food("Daily meal", 2.10m));
+            Foods.Add(new Food("Italian Pasta", 1.30m));
+            Foods.Add(new Food("Cheefs Choise", 5.99m));
 
-            Foods.Add(new Food("Apple", 0.30m));
-            
             //public string FoodList = System.IO.File.ReadAllText(@"C:\Users\romka\source\CsharpAdvanceExam\Restaurant ordering system\MenuFiles\Food.txt");
-        
-    }
+
+        }
+
+        public Food Generate()
+        {
+            var random = new Random();
+            int index = random.Next(Foods.Count);
+            var food = Foods[index];
+            return food;
+        }
 
     }
 }

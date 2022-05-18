@@ -1,1 +1,42 @@
-Apple Potato Tomato
+[
+  {
+    "Name": "Fish and Chips",
+    "Price": 2.99
+  },
+  {
+    "Name": "Toasts and Egg",
+    "Price": 1.59
+  },
+  {
+    "Name": "Bacon and potatoes",
+    "Price": 3.20
+  },
+  {
+    "Name": "Baked Parmezan",
+    "Price": 2.59
+  },
+  {
+    "Name": "Rizotto",
+    "Price": 2.89
+  },
+  {
+    "Name": "Chicken nugets",
+    "Price": 4.99
+  },
+  {
+    "Name": "Vegetable Soup",
+    "Price": 0.99
+  },
+  {
+    "Name": "Daily meal",
+    "Price": 2.10
+  },
+  {
+    "Name": "Italian Pasta",
+    "Price": 1.30
+  },
+  {
+    "Name": "Cheefs Choise",
+    "Price": 5.99
+  }
+]
